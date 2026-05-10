@@ -65,70 +65,10 @@ Personal experiments, archived utilities, and learning repositories remain at [@
 A read-only Fastify API (TypeScript + Node.js) that renders dynamic, embeddable SVG cards from GitHub's GraphQL API. No account, no installation — a single URL embedded in any `README.md` is all it takes.
 
 <div align="center">
-
-<a href="https://esousa97.com"><img src="https://img.shields.io/badge/Live%20Service-esousa97.com-1a9e6e?style=flat-round&logo=fastify&logoColor=white" alt="Live at esousa97.com" /></a>
-<a href="https://github.com/esousa-dev/engineering-overview-pro"><img src="https://img.shields.io/badge/Source%20Code-GitHub-24292f?style=flat-round&logo=github&logoColor=white" alt="Source on GitHub" /></a>
-<a href="https://github.com/esousa-dev/engineering-overview-pro/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-D07A46?style=flat-round" alt="MIT License" /></a>
-<img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-round&logo=typescript&logoColor=white" alt="TypeScript 5.8" />
-<img src="https://img.shields.io/badge/Fastify-5-000000?style=flat-round&logo=fastify&logoColor=white" alt="Fastify 5" />
-<img src="https://img.shields.io/badge/Node.js-22-339933?style=flat-round&logo=node.js&logoColor=white" alt="Node.js 22" />
-<img src="https://img.shields.io/badge/Vitest-tested-6E9F18?style=flat-round&logo=vitest&logoColor=white" alt="Vitest" />
-<img src="https://github.com/esousa-dev/engineering-overview-pro/actions/workflows/ci.yml/badge.svg?branch=main&style=flat-round" alt="CI status" />
-
-<br/>
-
+  <a href="https://github.com/esousa-dev/engineering-overview-pro">
+    <img src="https://img.shields.io/badge/Launch_Project-222?style=flat&logo=rocket&logoColor=white&labelColor=000" alt="Launch Project" />
+  </a>
 </div>
-
-**Quickstart — embed in one line:**
-
-```md
-![Stats](https://esousa97.com/api/stats?username=YOUR_LOGIN)
-![Top Languages](https://esousa97.com/api/top-langs?username=YOUR_LOGIN&layout=donut)
-![Streak](https://esousa97.com/api/streak?username=YOUR_LOGIN)
-![Activity](https://esousa97.com/api/activity?username=YOUR_LOGIN)
-
-```
-
-**Available endpoints:**
-
-| Endpoint | What it renders |
-| --- | --- |
-| `/api/stats` | Commits, PRs, issues, stars, and contribution rank |
-| `/api/top-langs` | Language breakdown — layouts: `normal`, `compact`, `donut`, `pie` |
-| `/api/streak` | Contribution streak — modes: `daily`, `weekly` |
-| `/api/activity` | Activity heatmap |
-| `/api/pin` | Pinned repository card grid |
-| `/api/devops` | CI/CD, CodeFactor, and security signals |
-| `/api/coding-stats` | Coding activity derived from public GitHub events |
-| `/health` | Live JSON health snapshot (uptime, cache, rate-limit headroom) |
-
-**Key characteristics:**
-
-* Rate-limited to 60 requests/min per IP; CDN cache hints of 4 hours by default
-* Themes: `dracula-black`, `pro-dark`; full color override via query params
-* Locale support: `en`, `pt-br`, `es`
-* Self-hostable on any Node.js 22+ process behind a reverse proxy
-* Security: no default usernames, `TRUST_PROXY` guard, Dependabot, weekly `npm audit` in CI
-
----
-<div align="center">
-  
-## Engineering Standards
-
-</div>
-
-All repositories under **esousa-dev** are held to the same baseline before any code reaches this organization:
-
-```
-Architecture    Modular, stateless, 12-Factor App compliant, container-ready
-Security        No hardcoded secrets · sanitized inputs · npm audit passing
-Quality         ESLint · Prettier · TypeScript strict · CodeFactor grade
-Testing         Unit tests with coverage reporting via Vitest
-CI/CD           GitHub Actions on every push and pull request to main
-Dependencies    Dependabot with grouped weekly updates
-Documentation   README · CONTRIBUTING · CODE_OF_CONDUCT · SECURITY · LICENSE
-
-```
 
 ---
 <div align="center">
