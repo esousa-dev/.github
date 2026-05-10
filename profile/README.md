@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./profile/esousa_dev_org_banner.svg" alt="esousa-dev — Reliable, production-grade software and modular systems" width="100%" />
+<img src="https://raw.githubusercontent.com/esousa-dev/.github/b7a14104e4601d7aecba0cba7b0f5d80e41b6776/esousa_dev_org_banner.svg" alt="esousa-dev — Reliable, production-grade software and modular systems" width="100%" />
 
 <br /><br />
 
