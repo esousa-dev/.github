@@ -29,16 +29,12 @@ Our main engineering areas are:
 
 ### Veloryft
 
-A telemetry product ecosystem for Forza Horizon, combining a native HUD, public website, administration services and platform infrastructure.
+A focused telemetry project for Forza Horizon, consisting of a native Windows HUD and its public website. Earlier platform, backend and licensing experiments are legacy and are no longer part of the project's direction.
 
 | Repository | Purpose | Core stack |
 | --- | --- | --- |
-| [veloryft-site](https://github.com/enoque-studio/veloryft-site) | Product website, beta registration and interactive HUD demo | React · TypeScript · Vite |
-| [veloryft-back](https://github.com/enoque-studio/veloryft-back) | Modular API and server-side platform services | Rust · Axum |
-| [veloryft-panel](https://github.com/enoque-studio/veloryft-panel) | Private-by-design administration panel | Rust · Axum · Vanilla JS |
-| [veloryft-db](https://github.com/enoque-studio/veloryft-db) | Versioned database schema and migrations | PostgreSQL · TimescaleDB |
-| [veloryft-front](https://github.com/enoque-studio/veloryft-front) | Planned player-facing platform interface | SolidJS · Vite |
-| [veloryft-license](https://github.com/enoque-studio/veloryft-license) | Licensing and activation service | Rust · Axum · SQLx |
+| [veloryft-hud](https://github.com/enoquesousa/veloryft-hud) | Low-latency Windows telemetry HUD with a native overlay | Rust · Tauri · Direct2D |
+| [veloryft-site](https://github.com/enoque-studio/veloryft-site) | Public website and interactive HUD presentation | React · TypeScript · Vite |
 
 ### Operations and data
 
