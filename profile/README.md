@@ -1,119 +1,76 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/esousa-dev/.github/b7a14104e4601d7aecba0cba7b0f5d80e41b6776/esousa_dev_org_banner.svg" alt="esousa-dev — Reliable, production-grade software and modular systems" width="100%" />
+<img src="./assets/enoque-studio.jpg" alt="Enoque Studio — automation, AI and prototypes" width="720" />
 
-<br /><br />
+# Enoque Studio
 
-<p>
-  <strong>Production-grade software. Modular by design. Open for the community.</strong>
-</p>
+**Software for critical operations, automation and connected products.**
 
-<p>
-  An engineering organization maintained by&nbsp;
-  <a href="https://github.com/ESousa97"><strong>Enoque Sousa</strong></a>
-  &nbsp;&mdash;&nbsp;
-  IT Operations Lead &middot; Full-Stack Engineer &middot; Open-Source Author<br/>
-  São Paulo, Brazil &middot; Building in public since 2022
-</p>
+Independent engineering studio maintained by [Enoque Sousa](https://github.com/enoquesousa) in São Paulo, Brazil.
 
-<br/>
-
-<a href="https://github.com/ESousa97">
-  <img src="https://img.shields.io/badge/Maintained%20by-ESousa97-D07A46?style=flat-round&logo=github&logoColor=white" alt="Maintained by ESousa97" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/enoque-sousa-bb89aa168/">
-  <img src="https://img.shields.io/badge/LinkedIn-Enoque%20Sousa-0A66C2?style=flat-round&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://enoquesousa.vercel.app">
-  <img src="https://img.shields.io/badge/Portfolio-enoquesousa.vercel.app-111111?style=flat-round&logo=vercel&logoColor=white" alt="Portfolio" />
-</a>
+[![Portfolio](https://img.shields.io/badge/Portfolio-enoquesousa.com-00B7C7?style=flat-square)](https://enoquesousa.com)
+[![GitHub](https://img.shields.io/badge/GitHub-enoquesousa-181717?style=flat-square&logo=github)](https://github.com/enoquesousa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Enoque_Sousa-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
 
 </div>
 
----
+## What we build
 
-## About This Organization
+Enoque Studio brings together production software, operational tooling and focused experiments. The work is grounded in real environments: food-service operations, fleet management, observability, data analysis and telemetry-driven products.
 
-**esousa-dev** is the production namespace for software authored by [Enoque Sousa](https://github.com/ESousa97) that is actively deployed, publicly accessible, and maintained for community use and contribution.
+Our main engineering areas are:
 
-Every project in this organization satisfies the following criteria before being published here:
+- **Operational systems** — fleet administration, support workflows and production observability.
+- **Data and automation** — integrations, analytical dashboards and repeatable operational processes.
+- **Product engineering** — APIs, web applications and native services designed as maintainable modules.
+- **Applied AI** — practical prototypes and developer tools with clear operational value.
 
-| Criterion | Requirement |
-|---|---|
-| Deployment | Live service with a verifiable production URL |
-| Licensing | MIT — free to use, fork, and self-host |
-| Documentation | README, CONTRIBUTING, CODE\_OF\_CONDUCT, SECURITY, LICENSE |
-| Quality Gate | CI/CD via GitHub Actions, linting, type-checking, and `npm audit` |
-| Dependency hygiene | Dependabot with grouped weekly updates |
+## Projects
 
-Personal experiments, archived utilities, and learning repositories remain at [@ESousa97](https://github.com/ESousa97). This organization is reserved exclusively for what is running in production and ready for community consumption.
+### Veloryft
 
----
+A telemetry product ecosystem for Forza Horizon, combining a native HUD, public website, administration services and platform infrastructure.
 
-<div align="center">
-  
-## Production Projects
+| Repository | Purpose | Core stack |
+| --- | --- | --- |
+| [veloryft-site](https://github.com/enoque-studio/veloryft-site) | Product website, beta registration and interactive HUD demo | React · TypeScript · Vite |
+| [veloryft-back](https://github.com/enoque-studio/veloryft-back) | Modular API and server-side platform services | Rust · Axum |
+| [veloryft-panel](https://github.com/enoque-studio/veloryft-panel) | Private-by-design administration panel | Rust · Axum · Vanilla JS |
+| [veloryft-db](https://github.com/enoque-studio/veloryft-db) | Versioned database schema and migrations | PostgreSQL · TimescaleDB |
+| [veloryft-front](https://github.com/enoque-studio/veloryft-front) | Planned player-facing platform interface | SolidJS · Vite |
+| [veloryft-license](https://github.com/enoque-studio/veloryft-license) | Licensing and activation service | Rust · Axum · SQLx |
 
-</div>
+### Operations and data
 
-### engineering-overview-pro
+| Repository | Purpose | Core stack |
+| --- | --- | --- |
+| [machine-management](https://github.com/enoque-studio/machine-management) | Windows fleet inventory, observability and assisted operations | PowerShell · .NET · TypeScript |
+| [data-analyzer-imc-producao](https://github.com/enoque-studio/data-analyzer-imc-producao) | Service-desk analytics and operational dashboards | Python · FastAPI · React · DuckDB |
+| [data-analyzer-kfc-desenvolvimento](https://github.com/enoque-studio/data-analyzer-kfc-desenvolvimento) | InvGate data integration and analysis | Python · TypeScript · DuckDB |
 
-> Free, public SVG card service for GitHub profiles
+### Developer tools and digital presence
 
-A read-only Fastify API (TypeScript + Node.js) that renders dynamic, embeddable SVG cards from GitHub's GraphQL API. No account, no installation — a single URL embedded in any `README.md` is all it takes.
+| Repository | Purpose | Core stack |
+| --- | --- | --- |
+| [engineering-overview-pro](https://github.com/enoque-studio/engineering-overview-pro) | Dynamic SVG engineering cards for GitHub profiles | TypeScript · Fastify · GraphQL |
+| [hub-follow](https://github.com/enoque-studio/hub-follow) | GitHub follower analysis with typed contracts | TypeScript |
+| [github-timeline](https://github.com/enoque-studio/github-timeline) | Visual timeline of GitHub activity | HTML · CSS · JavaScript |
+| [portfolio-v4](https://github.com/enoque-studio/portfolio-v4) | Trilingual portfolio and public engineering profile | Next.js · React · TypeScript |
 
-<div align="center">
-  <a href="https://github.com/esousa-dev/engineering-overview-pro">
-    <img src="https://img.shields.io/badge/Launch_Project-222?style=flat&logo=rocket&logoColor=white&labelColor=000" alt="Launch Project" />
-  </a>
-</div>
+## Engineering principles
 
----
-<div align="center">
-  
-## Organization Activity
+- Prefer explicit contracts and modular boundaries.
+- Design for observability, safe operation and maintainability.
+- Keep credentials and private operational data out of source control.
+- Document setup, architecture and validation close to the code.
+- Treat automation as an auditable system, not a collection of shortcuts.
 
-</br>
-  
-[![Stats](https://esousa97.com/api/stats?username=ESousa97)](https://github.com/ESousa97)
+## Contributing and security
 
-[![Top Languages](https://esousa97.com/api/top-langs?username=ESousa97&layout=donut)](https://github.com/ESousa97)
- 
-</div>
-
----
-
-<div align="center">
-
-## Contributing
-
-</div>
-
-All repositories under **esousa-dev** accept community contributions. The general workflow is:
-
-1. Read the project's `CONTRIBUTING.md` before opening any PR
-2. Verify `CODE_OF_CONDUCT.md` to understand the expected standards
-3. Search existing issues to avoid duplicates
-4. For non-trivial changes, open an issue first to align on scope and approach
-
-Security vulnerabilities must be disclosed through each project's `SECURITY.md`. Never report vulnerabilities in public issues.
-
----
-
-<div align="center">
+Each repository defines its own maturity, license and contribution process. Before opening a pull request, read the repository's documentation and existing issues. For security reports, use the private reporting channel described in that project's `SECURITY.md` when available; do not disclose vulnerabilities in a public issue.
 
 ## Contact
 
-
-| Channel | Address |
-| --- | --- |
-| GitHub (personal) | [@ESousa97](https://github.com/ESousa97) |
-| LinkedIn | [enoque-sousa-bb89aa168](https://www.linkedin.com/in/enoque-sousa-bb89aa168/) |
-| Portfolio | [enoquesousa.vercel.app](https://enoquesousa.vercel.app) |
-| Email | [sousa3086@outlook.com](mailto:sousa3086@outlook.com) |
-
-</div>
-
----
+- Website: [enoquesousa.com](https://enoquesousa.com)
+- GitHub: [@enoquesousa](https://github.com/enoquesousa)
+- LinkedIn: [Enoque Sousa](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
