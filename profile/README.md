@@ -30,6 +30,9 @@ Our main engineering areas are:
 | Repository | Purpose | Visibility |
 | --- | --- | --- |
 | [portfolio-v4](https://github.com/enoque-studio/portfolio-v4) | Trilingual portfolio and public engineering profile | Private |
+| [godeploy-platform](https://github.com/enoque-studio/godeploy-platform) | Self-hosted deployment platform with Git webhooks, Docker builds and domain routing | Public |
+| [ia-mobile-to-desktop-write](https://github.com/enoque-studio/ia-mobile-to-desktop-write) | Encrypted local-first clipboard sync between Windows and Android | Public |
+| [veloryft-hud](https://github.com/enoque-studio/veloryft-hud) | Low-latency Windows telemetry HUD with a native Direct2D overlay | Public |
 | [engineering-overview-pro](https://github.com/enoque-studio/engineering-overview-pro) | Dynamic SVG engineering cards for GitHub profiles | Public |
 | [github-timeline](https://github.com/enoque-studio/github-timeline) | Visual timeline of GitHub activity | Public |
 
