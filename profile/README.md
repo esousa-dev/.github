@@ -1,6 +1,4 @@
-<div align="center">
-
-<img src="./assets/enoque-studio.jpg" alt="Enoque Studio — automation, AI and prototypes" width="720" />
+<img align="right" src="./assets/enoque-studio.jpg" alt="Enoque Sousa and the Enoque Studio identity" width="380" />
 
 # Enoque Studio
 
@@ -12,7 +10,7 @@ Independent engineering studio maintained by [Enoque Sousa](https://github.com/e
 [![GitHub](https://img.shields.io/badge/GitHub-enoquesousa-181717?style=flat-square&logo=github)](https://github.com/enoquesousa)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Enoque_Sousa-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/enoque-sousa-bb89aa168/)
 
-</div>
+<br clear="right" />
 
 ## What we build
 
