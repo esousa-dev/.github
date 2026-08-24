@@ -1,6 +1,6 @@
-<img align="right" src="./assets/enoque-studio.jpg" alt="Enoque Sousa and the Enoque Studio identity" width="380" />
-
 # Enoque Studio
+
+<img align="right" src="./assets/enoque-studio.jpg" alt="Enoque Sousa and the Enoque Studio identity" width="380" />
 
 **Software for critical operations, automation and connected products.**
 
